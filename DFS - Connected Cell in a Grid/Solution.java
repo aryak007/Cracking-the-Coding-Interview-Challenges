@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.*;
-class GFG {
+class Solution {
 	int count = 0;
 	public static void main (String[] args)throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		GFG g = new GFG();
+		Solution S = new Solution();
 		
         StringTokenizer st;
 		
@@ -22,7 +22,7 @@ class GFG {
             }
 				
 
-			System.out.println(g.countConnectedComponents(matrix, m, n));
+			System.out.println(S.countConnectedComponents(matrix, m, n));
 		
 
 	}

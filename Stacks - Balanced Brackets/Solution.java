@@ -53,12 +53,12 @@ class Node {
 	}
 }
 
-class TestClass {
+class Solution {
 	Node first;
 
 	public static void main (String[] args)throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		TestClass T = new TestClass();
+		Solution T = new Solution();
 		int t = Integer.parseInt(br.readLine());
 		while (t-- > 0) {
 			String expression = br.readLine();

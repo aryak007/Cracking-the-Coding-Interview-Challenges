@@ -38,10 +38,10 @@ We must delete  characters to make both strings anagrams, so we print  on a new 
 */
 import java.io.*;
 import java.util.*;
-class TestClass {
+class Solution {
 	public static void main (String[] args)throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		TestClass T = new TestClass();
+		Solution T = new Solution();
 
 
 		//StringTokenizer st = new StringTokenizer(br.readLine());

@@ -41,12 +41,12 @@ class Node {
 		next = null;
 	}
 }
-class TestClass {
+class Solution {
 	Node head;
 	Node pointer;
 	public static void main (String[] args)throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		TestClass T = new TestClass();
+		Solution T = new Solution();
 		/*T.push(1);
 		T.push(2);
 		T.push(3);

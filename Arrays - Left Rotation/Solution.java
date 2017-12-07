@@ -30,10 +30,10 @@ Thus, we print the array's final state as a single line of space-separated value
 
 import java.io.*;
 import java.util.*;
-class TestClass {
+class Solution {
 	public static void main (String[] args)throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		TestClass T = new TestClass();
+		Solution T = new Solution();
 
 
 		StringTokenizer st = new StringTokenizer(br.readLine());
